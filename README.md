@@ -1,6 +1,36 @@
+# tf_packet
 
 
-# rbenv
+## vars
+
+```
+export token="<the_token>"
+export TF_VAR_token=${token}
+
+export projectid=<the_projectid>
+export TF_VAR_projectid=${projectid}
+
+export prefix=alvaro
+export TF_VAR_prefix=${prefix}
+
+```
+
+## build
+
+```
+brew install terraform
+
+terraform fmt
+
+terraform init
+
+terraform plan
+
+terraform apply
+```
+
+
+## rbenv
 
 brew install rbenv
 
@@ -10,7 +40,7 @@ source ~/.bash_profile
 
 rbenv init
 
-# pre-req
+## pre-req
 
 rbenv
 
@@ -25,7 +55,7 @@ gem install bundler
 bundle install
 
 
-# how to test
+## how to test
 
 kitchen converge
 
@@ -33,8 +63,7 @@ kitchen verify
 
 kitchen destroy
 
-# how to test all automated
+## how to test all automated
 
 kitchen test
 
-# tf_packet

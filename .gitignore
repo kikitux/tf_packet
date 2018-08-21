@@ -1,0 +1,7 @@
+.kitchen/
+.terraform/
+priv/
+.ruby-version
+.terraform.*
+Gemfile.lock
+terraform.tfstate*
