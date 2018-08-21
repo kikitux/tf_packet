@@ -57,13 +57,13 @@ bundle install
 
 ## how to test
 
-kitchen converge
+bundle exec kitchen converge
 
-kitchen verify
+bundle exec kitchen verify
 
-kitchen destroy
+bundle exec kitchen destroy
 
 ## how to test all automated
 
-kitchen test
+bundle exec kitchen test
 
